@@ -13,6 +13,7 @@ You need:
 
 You need:
 * autohotkey
+  * Note: seems to me like the virtual desktop switching functions are some old mangled version of https://github.com/pmb6tz/windows-desktop-switcher and could use a rebase
 * sharpkeys
 
 ## Key binds
