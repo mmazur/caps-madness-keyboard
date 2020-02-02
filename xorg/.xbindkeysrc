@@ -1,0 +1,67 @@
+#"xvkbd -text '\{+Alt_L}'"
+#    b:8
+#
+#"xvkbd -text '\{-Alt_L}'"
+#    release + b:8
+#
+#"xvkbd -text '\{-Alt_L}'"
+#    release + mod1 + b:8
+#
+
+"xvkbd -text '\{+Alt_L}'"
+    b:9
+
+"xvkbd -text '\{-Alt_L}'"
+    release + b:9
+
+"xvkbd -text '\{-Alt_L}'"
+    release + mod1 + b:9
+
+"konsole"
+    mod3 + f
+
+"konsole --profile small3"
+    mod3 + g
+
+"konsole --profile small2"
+    mod3 + v
+
+"google-chrome"
+    mod3 + p
+
+#"wmctrl -k on"
+#    mod3 + d
+
+"qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Show Desktop'"
+    mod3 + d
+
+"wmctrl -s 0"
+    mod3 + 1
+
+"wmctrl -s 1"
+    mod3 + 2
+
+"wmctrl -s 2"
+    mod3 + 3
+
+"wmctrl -s 3"
+    mod3 + 4
+
+"wmctrl -s 4"
+    mod3 + 5
+
+"wmctrl -s 5"
+    mod3 + q
+
+"wmctrl -s 6"
+    mod3 + w
+
+"wmctrl -s 7"
+    mod3 + e
+
+"wmctrl -s 8"
+    mod3 + r
+
+"wmctrl -s 9"
+    mod3 + t
+
