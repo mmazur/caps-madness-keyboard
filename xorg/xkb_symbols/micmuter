@@ -1,0 +1,5 @@
+xkb_symbols "micmuter" {
+    key <FK01> {         [         XF86AudioPlay ] };
+    key <FK02> {         [         XF86AudioPause ] };
+
+};

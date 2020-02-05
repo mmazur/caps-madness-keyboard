@@ -1,11 +1,17 @@
 #!/bin/bash
 
-# xkbmap -xkb $DISPLAY outputfile
+# xkbcomp -xkb $DISPLAY outputfile
 
 setxkbmap -layout 'pl(intl)+madcaps+prtscalt'
 
+for ID in `xinput list|grep mini.*keyboard.*keyboard|cut -d= -f 2|awk '{print $1}'`; do
+  setxkbmap -layout 'pl(intl)+micmuter' -device $ID
+  echo $ID
+done
+
 xkbset -accessx
 xset r rate 300 30
+
 
 #xinput set-button-map 10 1 2 3 4 5 6 7 0 9 10 11 12 13
 #xinput set-button-map 10 1 2 3 4 5 6 7 8 9 10 11 12 13
