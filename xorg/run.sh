@@ -5,7 +5,7 @@
 setxkbmap -layout 'pl(intl)+madcaps+prtscalt'
 
 for ID in `xinput list|grep mini.*keyboard.*keyboard|cut -d= -f 2|awk '{print $1}'`; do
-  setxkbmap -layout 'pl(intl)+micmuter' -device $ID
+  setxkbmap -layout 'micmuter' -device $ID
 done
 
 xkbset -accessx

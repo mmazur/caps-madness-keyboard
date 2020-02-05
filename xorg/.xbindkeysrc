@@ -65,11 +65,3 @@
 "wmctrl -s 9"
     mod3 + t
 
-# XF86AudioPause
-"amixer set Capture nocap"
-    m:0x0 + c:68
-
-# XF86AudioPlay
-"amixer set Capture cap"
-    m:0x0 + c:67
-
