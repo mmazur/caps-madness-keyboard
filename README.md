@@ -20,7 +20,7 @@ You need:
 
 There's:
 * A bunch of my random stuff
-  * Like – all the keys on the bottom row that aren't Space or Ctrl are now Alt_L; because reasons
+  * Like – all the keys on the bottom row that aren't Space or Ctrl are now Alt_L, because [I use alt for everything in Chrome](https://chrome.google.com/webstore/detail/tab-management-shortcuts/gpjllhokdlfhkinemgcogaehafejepnm)
   * Or – some key bindings assume this is a Polish keyboard, so _w Szczebrzeszynie zażółć gęślą jaźń_
 * caps+1…5 – switch between virtual desktops 1…5
 * caps+q…t – switch between virtual desktops 6…10
