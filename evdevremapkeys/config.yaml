@@ -1,0 +1,73 @@
+devices:
+- input_name: Microsoft Microsoft® 2.4GHz Transceiver v9.0
+  input_phys: 'usb-0000:03:00.0-8/input0'
+  output_name: remap-keyboard
+  remappings:
+    KEY_LEFTMETA:
+    - KEY_LEFTALT
+    KEY_COMPOSE:
+    - KEY_LEFTALT
+    KEY_CAPSLOCK:
+    - modifier_group: caps
+  modifier_groups:
+    caps:
+      KEY_H:
+      - KEY_LEFT
+      KEY_J:
+      - KEY_DOWN
+      KEY_K:
+      - KEY_UP
+      KEY_L:
+      - KEY_RIGHT
+      KEY_I:
+      - KEY_DELETE
+      KEY_0:
+      - KEY_HOME
+      KEY_SEMICOLON:
+      - KEY_END
+      KEY_1:
+      - KEY_LEFTCTRL
+      - KEY_F1
+      KEY_2:
+      - KEY_LEFTCTRL
+      - KEY_F2
+      KEY_3:
+      - KEY_LEFTCTRL
+      - KEY_F3
+      KEY_4:
+      - KEY_LEFTCTRL
+      - KEY_F4
+      KEY_5:
+      - KEY_LEFTCTRL
+      - KEY_F5
+      KEY_Q:
+      - KEY_LEFTCTRL
+      - KEY_F6
+      KEY_W:
+      - KEY_LEFTCTRL
+      - KEY_F7
+      KEY_E:
+      - KEY_LEFTCTRL
+      - KEY_F8
+      KEY_R:
+      - KEY_LEFTCTRL
+      - KEY_F9
+      KEY_T:
+      - KEY_LEFTCTRL
+      - KEY_F10
+      KEY_D:
+      - KEY_RIGHTMETA
+      - KEY_D
+      KEY_F:
+      - KEY_RIGHTMETA
+      - KEY_F
+      KEY_G:
+      - KEY_RIGHTMETA
+      - KEY_G
+      KEY_V:
+      - KEY_RIGHTMETA
+      - KEY_V
+      KEY_P:
+      - KEY_RIGHTMETA
+      - KEY_P
+

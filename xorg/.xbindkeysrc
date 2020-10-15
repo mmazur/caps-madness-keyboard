@@ -8,14 +8,26 @@
 #    release + mod1 + b:8
 #
 
-"xvkbd -text '\{+Alt_L}'"
-    b:9
+#"xvkbd -text '\{+Alt_L}'"
+#    b:9
 
-"xvkbd -text '\{-Alt_L}'"
-    release + b:9
+#"xvkbd -text '\{-Alt_L}'"
+#    release + b:9
+#
+#"xvkbd -text '\{-Alt_L}'"
+#    release + mod1 + b:9
 
-"xvkbd -text '\{-Alt_L}'"
-    release + mod1 + b:9
+"konsole"
+    mod4 + f
+
+"konsole --profile small3"
+    mod4 + g
+
+"konsole --profile small2"
+    mod4 + v
+
+"google-chrome"
+    mod4 + p
 
 "konsole"
     mod3 + f
@@ -32,7 +44,7 @@
 #"wmctrl -k on"
 #    mod3 + d
 
-"qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Show Desktop'"
+"qdbus-qt5 org.kde.kglobalaccel /component/kwin invokeShortcut 'Show Desktop'"
     mod3 + d
 
 "wmctrl -s 0"
