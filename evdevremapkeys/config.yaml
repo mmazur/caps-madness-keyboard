@@ -1,16 +1,18 @@
 devices:
-- input_name: Microsoft Microsoft® 2.4GHz Transceiver v9.0
-  input_phys: 'usb-0000:03:00.0-8/input0'
+- input_name: "Microsoft Microsoft® 2.4GHz Transceiver v9.0"
+  input_phys: "usb-0000:03:00.0-3/input0"
   output_name: remap-keyboard
   remappings:
-    KEY_LEFTMETA:
-    - KEY_LEFTALT
     KEY_COMPOSE:
+    - KEY_LEFTALT
+    KEY_LEFTMETA:
     - KEY_LEFTALT
     KEY_CAPSLOCK:
     - modifier_group: caps
   modifier_groups:
     caps:
+      KEY_C:
+      - KEY_CAPSLOCK
       KEY_H:
       - KEY_LEFT
       KEY_J:
@@ -26,48 +28,63 @@ devices:
       KEY_SEMICOLON:
       - KEY_END
       KEY_1:
-      - KEY_LEFTCTRL
+      - code: KEY_LEFTCTRL
+        modifier: true
       - KEY_F1
       KEY_2:
-      - KEY_LEFTCTRL
+      - code: KEY_LEFTCTRL
+        modifier: true
       - KEY_F2
       KEY_3:
-      - KEY_LEFTCTRL
+      - code: KEY_LEFTCTRL
+        modifier: true
       - KEY_F3
       KEY_4:
-      - KEY_LEFTCTRL
+      - code: KEY_LEFTCTRL
+        modifier: true
       - KEY_F4
       KEY_5:
-      - KEY_LEFTCTRL
+      - code: KEY_LEFTCTRL
+        modifier: true
       - KEY_F5
       KEY_Q:
-      - KEY_LEFTCTRL
+      - code: KEY_LEFTCTRL
+        modifier: true
       - KEY_F6
       KEY_W:
-      - KEY_LEFTCTRL
+      - code: KEY_LEFTCTRL
+        modifier: true
       - KEY_F7
       KEY_E:
-      - KEY_LEFTCTRL
+      - code: KEY_LEFTCTRL
+        modifier: true
       - KEY_F8
       KEY_R:
-      - KEY_LEFTCTRL
+      - code: KEY_LEFTCTRL
+        modifier: true
       - KEY_F9
       KEY_T:
-      - KEY_LEFTCTRL
+      - code: KEY_LEFTCTRL
+        modifier: true
       - KEY_F10
       KEY_D:
-      - KEY_RIGHTMETA
+      - code: KEY_LEFTMETA
+        modifier: true
       - KEY_D
       KEY_F:
-      - KEY_RIGHTMETA
+      - code: KEY_LEFTMETA
+        modifier: true
       - KEY_F
       KEY_G:
-      - KEY_RIGHTMETA
+      - code: KEY_LEFTMETA
+        modifier: true
       - KEY_G
       KEY_V:
-      - KEY_RIGHTMETA
+      - code: KEY_LEFTMETA
+        modifier: true
       - KEY_V
       KEY_P:
-      - KEY_RIGHTMETA
+      - code: KEY_LEFTMETA
+        modifier: true
       - KEY_P
 
