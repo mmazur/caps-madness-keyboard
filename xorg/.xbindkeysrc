@@ -17,25 +17,25 @@
 #"xvkbd -text '\{-Alt_L}'"
 #    release + mod1 + b:9
 
-"konsole"
+"konsole --profile big"
     mod4 + f
 
-"konsole --profile small3"
+"konsole --profile smallR"
     mod4 + g
 
-"konsole --profile small2"
+"konsole --profile smallL"
     mod4 + v
 
 "google-chrome"
     mod4 + p
 
-"konsole"
+"konsole --profile big"
     mod3 + f
 
-"konsole --profile small3"
+"konsole --profile smallR"
     mod3 + g
 
-"konsole --profile small2"
+"konsole --profile smallL"
     mod3 + v
 
 "google-chrome"
