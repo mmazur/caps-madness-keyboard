@@ -1,0 +1,36 @@
+"wmctrl -s 0"
+    Control + F1
+
+"wmctrl -s 1"
+    Control + F2
+
+"wmctrl -s 2"
+    Control + F3
+
+"wmctrl -s 3"
+    Control + F4
+
+"wmctrl -s 4"
+    Control + F5
+
+"wmctrl -s 5"
+    Control + F6
+
+"wmctrl -s 6"
+    Control + F7
+
+"wmctrl -s 7"
+    Control + F8
+
+"wmctrl -s 8"
+    Control + F9
+
+"wmctrl -s 9"
+    Control + F10
+
+"amixer set Capture nocap"
+    Mod4 + bracketleft
+
+"amixer set Capture cap"
+    Mod4 + bracketright
+
