@@ -1,33 +1,43 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-
-; This is based on a script floating around the internets customized to my config
-
-
-
-
+; This is the setting that runs smoothest on my
+; system. Depending on your video card and cpu
+; power, you may want to raise or lower this value.
 SetWinDelay,2
 
 CoordMode,Mouse
 return
 
-;!MButton::
-;MouseGetPos,KDE_X1,KDE_Y1,KDE_id
-;WinGet,KDE_Win,MinMax,ahk_id %KDE_id%
-;WinClose,ahk_id %KDE_id%
-;return
+!MButton::
+MouseGetPos,KDE_X1,KDE_Y1,KDE_id
+WinGet,KDE_Win,MinMax,ahk_id %KDE_id%
+WinClose,ahk_id %KDE_id%
+return
 
 
 !RButton::
-; Get the initial mouse position and window id, and
-; restore if the window is maximized.
 MouseGetPos,KDE_X1,KDE_Y1,KDE_id
 WinGet,KDE_Win,MinMax,ahk_id %KDE_id%
 If KDE_Win
     WinRestore,ahk_id %KDE_id%
+If 0
+{
+    WinGetPos,KDE_WinX1,KDE_WinY1,KDE_WinW1,KDE_WinH1,ahk_id %KDE_id%
+    KDE_WinX2 := (KDE_WinX1 + 29) ; those cords make no sense, so wing it
+    KDE_WinY2 := (KDE_WinY1 + 29) ; those cords make no sense, so wing it
+    KDE_WinH2 := (KDE_WinH1 - 60)
+    KDE_WinW2 := (KDE_WinW1 - 60)
+    ;msgbox,%KDE_WinY1%
+    ;WinRestore,ahk_id %KDE_id%
+    ;WinMove,ahk_id %KDE_id%,,50,50
+    ;WinMove,ahk_id %KDE_id%,,%KDE_WinX2%,%KDE_WinY2%,1920,1080
+    ;WinMove,ahk_id %KDE_id%,,%KDE_WinX2%,%KDE_WinY2%,%KDE_WinW2%,%KDE_WinH2%
+    WinRestore,ahk_id %KDE_id%
+    WinMove,ahk_id %KDE_id%,,%KDE_WinX2%,%KDE_WinY2%,%KDE_WinW2%,%KDE_WinH2%
+}
 ; Get the initial window position.
 WinGetPos,KDE_WinX1,KDE_WinY1,,,ahk_id %KDE_id%
 Loop
@@ -43,7 +53,6 @@ Loop
     WinMove,ahk_id %KDE_id%,,%KDE_WinX2%,%KDE_WinY2% ; Move the window to the new position.
 }
 If KDE_Win
-    ; Window was initially maximized, so maximize it back
     WinMaximize,ahk_id %KDE_id%
 return
 
