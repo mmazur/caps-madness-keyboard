@@ -1,0 +1,6 @@
+{
+    "mapping": {
+        "1,103,1": "KEY_LEFTMETA + KEY_RIGHTBRACE",
+        "1,108,1": "KEY_LEFTMETA + KEY_LEFTBRACE"
+    }
+}
