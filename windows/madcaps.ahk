@@ -16,7 +16,34 @@ SetKeyDelay, 75
 ;XButton2::LAlt
 
 
-#Include %A_ScriptDir%\switcher\functions.ahk
+;#Include %A_ScriptDir%\switcher\functions.ahk
+
+VDA_PATH := A_ScriptDir . "\VirtualDesktopAccessor.dll"
+hVirtualDesktopAccessor := DllCall("LoadLibrary", "Str", VDA_PATH, "Ptr")
+
+GoToDesktopNumberProc := DllCall("GetProcAddress", "Ptr", hVirtualDesktopAccessor, "AStr", "GoToDesktopNumber", "Ptr")
+MoveWindowToDesktopNumberProc := DllCall("GetProcAddress", "Ptr", hVirtualDesktopAccessor, "AStr", "MoveWindowToDesktopNumber", "Ptr")
+
+MoveCurrentWindowToDesktop(desktopNumber) {
+    global MoveWindowToDesktopNumberProc, GoToDesktopNumberProc
+    WinGet, activeHwnd, ID, A
+    DllCall(MoveWindowToDesktopNumberProc, "Ptr", activeHwnd, "Int", desktopNumber, "Int")
+    DllCall(GoToDesktopNumberProc, "Int", desktopNumber)
+}
+GoToDesktopNumber(num) {
+    global GoToDesktopNumberProc
+    DllCall(GoToDesktopNumberProc, "Int", num, "Int")
+    return
+}
+switchDesktopByNumber(num) {
+    ; If user is holding down Mouse left button, move the current window also
+    if (GetKeyState("LButton")) {
+        MoveCurrentWindowToDesktop(num-1)
+    } else {
+        GoToDesktopNumber(num-1)
+    }
+    return
+}
 
 PrintScreen & 1::switchDesktopByNumber(1)
 PrintScreen & 2::switchDesktopByNumber(2)
@@ -29,8 +56,11 @@ PrintScreen & e::switchDesktopByNumber(8)
 PrintScreen & r::switchDesktopByNumber(9)
 PrintScreen & t::switchDesktopByNumber(10)
 
-PrintScreen & Right::MoveCurrentWindowToRightDesktop()
-PrintScreen & Left::MoveCurrentWindowToLeftDesktop()
+;PrintScreen & Right::MoveCurrentWindowToRightDesktop()
+;PrintScreen & Left::MoveCurrentWindowToLeftDesktop()
+
+PrintScreen & WheelUp::Send {Volume_Up}
+PrintScreen & WheelDown::Send {Volume_Down}
 
 PrintScreen & d::Send #d
 
@@ -49,7 +79,7 @@ PrintScreen & 0::Send {Home}
 PrintScreen & `;::Send {End}
 
 PrintScreen & f::Run wt
-PrintScreen & p::Run "C:\Program Files\Google\Chrome\Application\chrome.exe"
+PrintScreen & p::Run "C:\Program Files\Google\Chrome\Application\chrome.exe" --profile-directory=Default
 ;PrintScreen & o::Run microsoft-edge:about:blank
 ;PrintScreen & f::Run C:\Users\mmazur\Apps\ubuntu.lnk
 
