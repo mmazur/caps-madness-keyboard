@@ -1,5 +1,0 @@
-# Thinkpads have PrtSc instead of right win key; I want that to be an Alt_L
-xkb_symbols "prtscalt" {
-    key <PRSC> { [ Alt_L, Alt_L ] };
-    modifier_map Mod1 { <PRSC> };
-};
