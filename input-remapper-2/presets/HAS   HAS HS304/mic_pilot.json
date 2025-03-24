@@ -1,6 +1,26 @@
-{
-    "mapping": {
-        "1,103,1": "KEY_LEFTMETA + KEY_RIGHTBRACE",
-        "1,108,1": "KEY_LEFTMETA + KEY_LEFTBRACE"
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 103,
+                "origin_hash": "87643a545f14d81a1e8d7a432f4e7c6a"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_LEFTMETA + KEY_RIGHTBRACE",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 108,
+                "origin_hash": "87643a545f14d81a1e8d7a432f4e7c6a"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_LEFTMETA + KEY_LEFTBRACE",
+        "mapping_type": "key_macro"
     }
-}
+]

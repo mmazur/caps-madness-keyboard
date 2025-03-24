@@ -1,0 +1,8 @@
+{
+    "version": "2.1.1",
+    "autoload": {
+        "AT Translated Set 2 keyboard": "madcaps",
+        "Microsoft Microsoft\u00ae 2.4GHz Transceiver v9.0": "madcaps",
+        "HAS   HAS HS304": "mic_pilot"
+    }
+}
