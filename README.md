@@ -6,8 +6,8 @@ Or you can use it for *everything*…
 ## Linux
 
 You need:
-* xorg
-* xbindkeys
+* [input-remapper](https://github.com/sezanzeb/input-remapper/)
+
 
 ## Windows
 
