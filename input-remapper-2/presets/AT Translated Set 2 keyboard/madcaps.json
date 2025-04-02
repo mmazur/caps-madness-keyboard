@@ -389,29 +389,29 @@
         "input_combination": [
             {
                 "type": 1,
-                "code": 58,
-                "origin_hash": "748e31550c24fc009038438dc4fce338"
-            },
-            {
-                "type": 1,
-                "code": 47,
-                "origin_hash": "748e31550c24fc009038438dc4fce338"
-            }
-        ],
-        "target_uinput": "keyboard",
-        "output_symbol": "KEY_F17",
-        "mapping_type": "key_macro"
-    },
-    {
-        "input_combination": [
-            {
-                "type": 1,
                 "code": 99,
                 "origin_hash": "748e31550c24fc009038438dc4fce338"
             }
         ],
         "target_uinput": "keyboard",
         "output_symbol": "KEY_LEFTALT",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "384a35c02b3a82bc4756d292e2c41d23"
+            },
+            {
+                "type": 1,
+                "code": 24,
+                "origin_hash": "384a35c02b3a82bc4756d292e2c41d23"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_F17",
         "mapping_type": "key_macro"
     }
 ]
