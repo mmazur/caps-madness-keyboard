@@ -2,9 +2,6 @@
     "version": 18,
     "unmapped_passthrough_layers": [
         0,
-        1,
-        2,
-        3,
         4,
         5,
         6,
@@ -49,11 +46,39 @@
             "target_port": 0
         },
         {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070006",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
             "target_usage": "0x00070039",
             "source_usage": "0x00070006",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x0007000b",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -66,7 +91,21 @@
             "source_usage": "0x0007000b",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x0007000d",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -79,7 +118,21 @@
             "source_usage": "0x0007000d",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x0007000e",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -92,7 +145,21 @@
             "source_usage": "0x0007000e",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x0007000f",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -105,7 +172,21 @@
             "source_usage": "0x0007000f",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x0007000c",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -118,7 +199,21 @@
             "source_usage": "0x0007000c",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070027",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -131,7 +226,21 @@
             "source_usage": "0x00070027",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070033",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -144,7 +253,21 @@
             "source_usage": "0x00070033",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x0007001e",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -157,7 +280,21 @@
             "source_usage": "0x0007001e",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x0007001f",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -170,7 +307,21 @@
             "source_usage": "0x0007001f",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070020",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -183,7 +334,21 @@
             "source_usage": "0x00070020",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070021",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -196,7 +361,21 @@
             "source_usage": "0x00070021",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070022",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -209,7 +388,21 @@
             "source_usage": "0x00070022",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070014",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -222,7 +415,21 @@
             "source_usage": "0x00070014",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x0007001a",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -235,7 +442,21 @@
             "source_usage": "0x0007001a",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070008",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -248,7 +469,21 @@
             "source_usage": "0x00070008",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070015",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -261,7 +496,21 @@
             "source_usage": "0x00070015",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070017",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -274,7 +523,21 @@
             "source_usage": "0x00070017",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070007",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -287,7 +550,21 @@
             "source_usage": "0x00070007",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070009",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -300,7 +577,21 @@
             "source_usage": "0x00070009",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070012",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -313,7 +604,21 @@
             "source_usage": "0x00070012",
             "scaling": 1000,
             "layers": [
-                1
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070013",
+            "scaling": 1000,
+            "layers": [
+                1,
+                2
             ],
             "sticky": false,
             "tap": false,
@@ -326,11 +631,38 @@
             "source_usage": "0x00070013",
             "scaling": 1000,
             "layers": [
-                1
+                2
             ],
             "sticky": false,
             "tap": false,
             "hold": false,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "target_usage": "0xfff10002",
+            "source_usage": "0x00070016",
+            "layers": [
+                1,
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "scaling": 1000,
+            "source_port": 0,
+            "target_port": 0
+        },
+        {
+            "source_usage": "0x00070016",
+            "target_usage": "0xfff2000f",
+            "layers": [
+                2
+            ],
+            "sticky": false,
+            "tap": false,
+            "hold": false,
+            "scaling": 1000,
             "source_port": 0,
             "target_port": 0
         }
@@ -426,7 +758,12 @@
                 "0x00070013"
             ]
         ],
-        [],
+        [
+            [
+                "0x000700e3",
+                "0x0007002b"
+            ]
+        ],
         [],
         [],
         [],
