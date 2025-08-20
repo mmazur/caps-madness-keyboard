@@ -642,6 +642,7 @@
         {
             "target_usage": "0xfff10002",
             "source_usage": "0x00070016",
+            "scaling": 1000,
             "layers": [
                 1,
                 2
@@ -649,20 +650,19 @@
             "sticky": false,
             "tap": false,
             "hold": false,
-            "scaling": 1000,
             "source_port": 0,
             "target_port": 0
         },
         {
-            "source_usage": "0x00070016",
             "target_usage": "0xfff2000f",
+            "source_usage": "0x00070016",
+            "scaling": 1000,
             "layers": [
                 2
             ],
             "sticky": false,
             "tap": false,
             "hold": false,
-            "scaling": 1000,
             "source_port": 0,
             "target_port": 0
         }
