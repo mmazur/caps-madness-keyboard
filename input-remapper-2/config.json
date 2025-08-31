@@ -3,6 +3,12 @@
     "autoload": {
         "AT Translated Set 2 keyboard": "madcaps",
         "Microsoft Microsoft\u00ae 2.4GHz Transceiver v9.0": "madcaps",
-        "HAS   HAS HS304": "mic_pilot"
+        "HAS   HAS HS304": "mic_pilot",
+        "HOLTEK USB-HID Keyboard": "madcaps",
+        "Compx 2.4G Receiver": "madcaps",
+        "K90m BT5.0 Keyboard": "madcaps",
+        "Incase Incase\u00ae Nano Transceiver v2.1": "madcaps",
+        "RP2040 HID Remapper S2HA Mouse": "new preset",
+        "Matias Matias Encrypted Wireless Receiver": "madcaps"
     }
 }

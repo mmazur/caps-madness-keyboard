@@ -93,7 +93,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "KEY_WWW",
+        "output_symbol": "KEY_F18",
         "mapping_type": "key_macro"
     },
     {
@@ -412,6 +412,23 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "KEY_F17",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "cd845d80644de423d4e277f8f13d60d8"
+            },
+            {
+                "type": 1,
+                "code": 31,
+                "origin_hash": "cd845d80644de423d4e277f8f13d60d8"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_LEFTMETA+KEY_TAB",
         "mapping_type": "key_macro"
     }
 ]
